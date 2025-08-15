@@ -1,4 +1,4 @@
-<x-layout  :title="$title">
+<x-layout :title="$title">
     <div class="flex flex-col items-center justify-center min-h-screen text-center px-4">
         <!-- Title -->
         <h1 class="text-5xl md:text-6xl font-bold mb-4">

@@ -89,7 +89,7 @@ Route::get('/about', function () {
 // Products List Page
 Route::get('/products', function () use ($products) {
     // Pagination setup
-    $perPage = 3; // items per page
+    $perPage = 9; // items per page
     $page = request()->get('page', 1); // current page
     $total = count($products);
     $offset = ($page - 1) * $perPage;
