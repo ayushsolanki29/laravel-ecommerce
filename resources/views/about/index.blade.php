@@ -1,29 +1,33 @@
 <x-layout :title="$title">
-    <section class="max-w-3xl mx-auto text-center">
-        <h1 class="text-4xl font-bold mb-4">About Us</h1>
+    <section class="max-w-4xl mx-auto text-center">
+        <!-- Heading -->
+        <h1 class="text-4xl font-bold mb-4">About Our Shop</h1>
+
+        <!-- Intro Paragraph -->
         <p class="text-lg text-gray-400 leading-relaxed mb-6">
-            Welcome to our Laravel application! We’re passionate about building modern, fast, and
-            user-friendly web solutions. Our goal is to provide you with a smooth experience, from
-            the first click to the last interaction.
+            At <span class="text-indigo-400 font-semibold">My Laravel Shop</span>, we believe in more than just selling products —
+            we believe in delivering quality, style, and value to every customer. Whether you're shopping for fashion, accessories,
+            or everyday essentials, our goal is to make your shopping experience smooth, enjoyable, and memorable.
         </p>
 
+        <!-- Features -->
         <div class="grid md:grid-cols-3 gap-6 mt-8">
             <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-                <h2 class="text-xl font-semibold mb-2">🚀 Fast</h2>
+                <h2 class="text-xl font-semibold mb-2">🚀 Fast Delivery</h2>
                 <p class="text-gray-400 text-sm">
-                    Optimized for performance so you get lightning-fast load times.
+                    We process and ship your orders quickly, so you can enjoy your new products without the wait.
                 </p>
             </div>
             <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-                <h2 class="text-xl font-semibold mb-2">🎨 Modern</h2>
+                <h2 class="text-xl font-semibold mb-2">🎨 Stylish Designs</h2>
                 <p class="text-gray-400 text-sm">
-                    Sleek, modern UI designed with Tailwind CSS for a premium feel.
+                    Every item in our store is carefully selected for its quality, comfort, and modern appeal.
                 </p>
             </div>
             <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-                <h2 class="text-xl font-semibold mb-2">🔒 Secure</h2>
+                <h2 class="text-xl font-semibold mb-2">🔒 Secure Shopping</h2>
                 <p class="text-gray-400 text-sm">
-                    Built with Laravel’s robust security features to protect your data.
+                    Your privacy and payment details are always safe with our secure checkout process.
                 </p>
             </div>
         </div>
